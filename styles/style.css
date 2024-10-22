@@ -1,0 +1,66 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #111111FF;
+
+
+}
+
+
+/* shared styles */
+
+.display-flex {
+    display: flex;
+}
+
+.coral-red {
+    color: rgb(230, 83, 60);
+}
+
+
+/* nav section styles */
+.navbar {
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 57px;
+}
+
+.nav-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.nav-links {
+    margin-left: 495px;
+    gap: 47px;
+    align-items: center;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+
+
+}
+
+.nav-button {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: none;
+    background: #111111FF;
+
+}
+
+#special {
+    width: 92px;
+    height: 38px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+
+}
+
+/* responsive media query */
+@media screen and (max-width:576px) {}
